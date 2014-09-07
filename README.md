@@ -1,15 +1,24 @@
 # Embergarten-basic
 
-This README outlines the details of collaborating on this Ember application.
+Hi Everyone, this is a sample app that you should be able to run before the training.
 
-A short introduction of this app could easily go here.
+clone this repository
+
+```
+git clone https://github.com/unspace/embergarten-basic.git
+```
+
+get the app running following the <b>Installation</b> and the <b>Running</b> instructions.
+
+We'd also like you to have either firefox or chrome installed along with the <b>Ember Inspector</b> extension.
 
 ## Prerequisites
 
 You will need the following things properly installed on your computer.
 
 * [Git](http://git-scm.com/)
-* [Node.js](http://nodejs.org/) (with NPM) and [Bower](http://bower.io/)
+* [Node.js](http://nodejs.org/) (with NPM)
+* [Bower](http://bower.io/)
 
 ## Installation
 
@@ -31,15 +40,6 @@ Make use of the many generators for code, try `ember help generate` for more det
 
 * `ember test`
 * `ember test --server`
-
-### Building
-
-* `ember build` (development)
-* `ember build --environment production` (production)
-
-### Deploying
-
-Specify what it takes to deploy your app.
 
 ## Further Reading / Useful Links
 
