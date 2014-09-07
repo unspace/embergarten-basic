@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>EmbergartenBasic</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    {{BASE_TAG}}
+
+    <link rel="stylesheet" href="assets/vendor.css">
+    <link rel="stylesheet" href="assets/embergarten-basic.css">
+  </head>
+  <body>
+    <script>
+      window.EmbergartenBasicENV = {{ENV}};
+      window.EmberENV = window.EmbergartenBasicENV.EmberENV;
+    </script>
+    <script src="assets/vendor.js"></script>
+    <script src="assets/embergarten-basic.js"></script>
+    <script>
+      window.EmbergartenBasic = require('embergarten-basic/app')['default'].create(EmbergartenBasicENV.APP);
+    </script>
+  </body>
+</html>
