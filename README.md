@@ -38,7 +38,7 @@ Make use of the many generators for code, try `ember help generate` for more det
 
 ### Running Tests
 
-* `ember test`
+* `ember test` or use `./node_modules/ember-cli/bin/ember serve` from the project directory if `ember` is not available as an executable
 * `ember test --server`
 
 ## Further Reading / Useful Links
